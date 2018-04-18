@@ -1,0 +1,143 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Specific Styles: Section A */
+.portfolio-wrapper-Introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+}
+.port-a-title {
+    color: rgb(255, 255, 255);
+    font-size: 7em;
+    font-family: 'Merriweather', serif;
+}
+.port-a-description {
+    margin-bottom: 5%;
+    color: rgb(249,38,114);
+    font-size: 1.65em;
+    font-family: 'Montserrat', sans-serif;
+}
+.portfolio-wrapper-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(33, 33, 33);
+}
+.port-b-title {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Specific Styles: Section B */
+.portfolio-wrapper-Projects {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(218, 223, 225);
+    text-align: center;
+}
+.port-c-headertitle { 
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+}
+.port-c-grid {
+    display: flex;
+    justify-content: center;
+}
+.project-box {
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    height: 25vh;
+    background-color: red;
+}
+/* Specific Styles: Section Contact */
+.portfolio-wrapper-Contact {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(236, 240, 241);
+    text-align: center;
+}
+
+
+
+
+/* Global Styles: Animated Down Arrow */
+.arrow,.arrow:before {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.arrow {
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    border-right: 2px #fff solid;
+    border-bottom: 2px #fff solid;
+}
+.arrow:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-left: none;
+    border-top: none;
+    border-right: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: arrow;
+}
+@keyframes arrow {
+  0% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-5px, -5px);
+    }
+}
+/* unvisited link */
+a:link {
+    color: none;
+}
+
+/* visited link */
+a:visited {
+    color: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+/* selected link */
+a:active {
+    color: none;
+}
+
+
+
+
+
+
+
