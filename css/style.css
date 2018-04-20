@@ -9,28 +9,27 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     height: 80vh;
-    width: 100vw;
     background-color: rgb(33, 33, 33);
-    text-align: center;
 }
-.port-a-title {
+.portfolio-introduction-title {
     margin: 0;
     color: rgb(255, 255, 255);
     font-size: 7em;
     font-family: 'Merriweather', serif;
 }
-.port-a-description {
+.portfolio-introduction-description {
     color: rgb(249,38,114);
     font-size: 1.65em;
     font-family: 'Montserrat', sans-serif;
 }
-.port-a-description-2 {
-    color: rgb(255, 255, 255);
-    font-size: 1.35em;
-    font-family: 'Montserrat', sans-serif;
+.portfolio-introduction-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
 }
+
+
 .portfolio-wrapper-b {
     display: flex;
     justify-content: center;
@@ -78,12 +77,29 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(236, 240, 241);
     text-align: center;
+    height: 100vh;
+    background-color: rgb(236, 240, 241);
 }
+.portfolio-contact-description {
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+}
+.portfolio-contact-inputs {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%
+}
+.portfolio-contact-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+
+
+
+
+
 /* Global Styles: Animated Down Arrow */
 .arrow,.arrow:before {
     display: flex;
@@ -137,18 +153,7 @@ a:hover {
 a:active {
     color: none;
 }
-.img {
-    display: flex;
-    justify-content: space-between;
-}
-.Form {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 50vw;
-    height: 25vh;
-}
+
 
 
 
