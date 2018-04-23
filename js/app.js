@@ -1,6 +1,6 @@
 $(document).ready(function() {
 var options = {
-    stringsElement: '#Introduction-typed',
+    stringsElement: '#introductionTyped',
     typeSpeed: 50
 }
 

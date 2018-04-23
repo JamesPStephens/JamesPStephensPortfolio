@@ -4,76 +4,97 @@ html, body {
     overflow-x: hidden;
 }
 
-/* Specific Styles: Section A */
-.portfolio-wrapper-Introduction {
+
+/* Introduction */
+.portfolio-IntroductionWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
     background-color: rgb(33, 33, 33);
 }
-.portfolio-introduction-title {
-    margin: 0;
-    color: rgb(255, 255, 255);
-    font-size: 7em;
+.portfolio-IntroductionTitle {
     font-family: 'Merriweather', serif;
+    font-size: 7em;
+    color: rgb(255, 255, 255);
 }
-.portfolio-introduction-description {
-    color: rgb(249,38,114);
-    font-size: 1.65em;
+.portfolio-IntroductionDescription {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: rgb(249,38,114);
 }
-.portfolio-introduction-img {
+.portfolio-IntroductionImg {
     display: flex;
     justify-content: space-between;
-    margin: 1%;
 }
-
-
-.portfolio-wrapper-b {
+.portfolio-ButtonWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 20vh;
-    width: 100vw;
     background-color: rgb(33, 33, 33);
 }
-.port-b-title {
-    margin: 0;
-    color: rgb(255, 255, 255);
-    font-size: 1em;
+.portfolio-ButtonTitle {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: rgb(255, 255, 255); 
 }
-/* Specific Styles: Section B */
-.portfolio-wrapper-Projects {
+
+
+/* Projects */
+.portfolio-ProjectWrapper {
     display: flex;
     justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(218, 223, 225);
+    align-items: center;
     text-align: center;
+    min-height: 100vh;
+    background-color: rgb(218, 223, 225);
 }
-.port-c-headertitle {
+.portfolio-ProjectHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+.portfolio-HeaderTitle {
     margin-bottom: 2.5%;
     font-size: 3em;
     font-family: 'Montserrat', sans-serif;
 }
-.port-c-grid {
+.portfolio-Grid {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.project-box {
-    margin-top: 2.5%;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
-    height: 25vh;
-    background-color: red;
+.portfolio-GridBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    background-image: no-repeat center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-/* Specific Styles: Section Contact */
-.portfolio-wrapper-Contact {
+.gridbox-Title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+}
+.gridbox-Description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+}
+
+
+/* Contact */
+.portfolio-ContactWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,26 +102,27 @@ html, body {
     height: 100vh;
     background-color: rgb(236, 240, 241);
 }
-.portfolio-contact-description {
-    font-size: 1.3em;
+.portfolio-ContactTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+}
+.portfolio-ContactDescription {
+    font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
 }
-.portfolio-contact-inputs {
+.portfolio-ContactInputs {
     margin-top: 2.5%;
     margin-bottom: 2.5%
 }
-.portfolio-contact-img {
-    display: flex;
-    justify-content: space-between;
-    margin: 1%;
-}
 
 
 
 
 
 
-/* Global Styles: Animated Down Arrow */
+
+/* Global Styles */
 .arrow,.arrow:before {
     display: flex;
     justify-content: center;
