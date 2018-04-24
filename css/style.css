@@ -71,11 +71,13 @@ html, body {
 }
 .portfolio-GridBox {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-color:rgb(33, 33, 33);
     min-height: 45vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
 }
 .gridbox-Title {
     font-family: 'Montserrat', sans-serif;
@@ -86,6 +88,13 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     color: rgb(255, 255, 255);
+}
+.gridbox-Overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(33, 33, 33, 0.75);
 }
 
 
@@ -108,10 +117,6 @@ html, body {
     font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
-}
-.portfolio-ContactInputs {
-    margin-top: 2.5%;
-    margin-bottom: 2.5%
 }
 
 
