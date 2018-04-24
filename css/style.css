@@ -50,7 +50,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     min-height: 100vh;
     background-color: rgb(218, 223, 225);
 }
@@ -75,24 +74,18 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 30vh;
-    background-image: no-repeat center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color:rgb(33, 33, 33);
+    min-height: 45vh;
 }
 .gridbox-Title {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 2em;
     color: rgb(255, 255, 255);
-    opacity: 0;
 }
 .gridbox-Description {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     color: rgb(255, 255, 255);
-    opacity: 0;
 }
 
 
@@ -114,6 +107,7 @@ html, body {
     margin-top: 2.5%;
     font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
 }
 .portfolio-ContactInputs {
     margin-top: 2.5%;
@@ -181,22 +175,26 @@ html, body {
 }
 /* unvisited link */
 a:link {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: rgb(0, 123, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 /* width */
 ::-webkit-scrollbar {
