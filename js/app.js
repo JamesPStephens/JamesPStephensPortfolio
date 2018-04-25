@@ -1,7 +1,9 @@
 $(document).ready(function() {
 var options = {
     stringsElement: '#introductionTyped',
-    typeSpeed: 50
+    typeSpeed: 50,
+    loop: true,
+    backSpeed: 50,
 }
 
 var typed = new Typed("#intro", options);
