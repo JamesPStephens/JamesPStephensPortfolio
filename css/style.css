@@ -98,6 +98,7 @@ html, body {
 .gridbox-Description {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
+    text-align: center;
     color: rgb(255, 255, 255);
 }
 .gridbox-Overlay {
