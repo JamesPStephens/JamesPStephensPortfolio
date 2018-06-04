@@ -73,6 +73,8 @@ html, body {
 .portfolio-Description {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .portfolio-Grid {
     display: flex;
@@ -86,9 +88,13 @@ html, body {
     min-height: 50vh;
     overflow: hidden;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     margin: 0%;
     padding: 0%;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
 }
 .gridbox-Title {
     font-family: 'Montserrat', sans-serif;
@@ -99,15 +105,18 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
     color: rgb(255, 255, 255);
 }
-.gridbox-Overlay {
+.gridbox-Overlay-Text {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgba(33, 33, 33, 0.8);
 }
+
 
 
 /* Contact */
